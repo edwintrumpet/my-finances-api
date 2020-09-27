@@ -17,6 +17,19 @@
 
 NodeJS api to manage personal finances
 
+## Development
+
+- **`npm i`** => Install dependencies
+- **`npm run dev`** => Run app in develop mode
+- **`npm start`** => Run app in production mode
+- **`npm test`** => Run tests
+
+To work in this project with the previous scripts execute the following instructions
+
+- Install dependencies
+- Create `.env.dev` file as `.env.example` file with the corresponding values
+- Run app in develop mode
+
 ## Author
 
 Edwin García  
