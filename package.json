@@ -6,7 +6,10 @@
   "scripts": {
     "dev": "DEBUG=app* nodemon src/index.js",
     "start": "NODE_ENV=production node src/index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest",
+    "test:cover": "jest --coverage",
+    "lint": "eslint ./src/",
+    "lint:fix": "eslint ./src/ --fix"
   },
   "repository": {
     "type": "git",
@@ -33,6 +36,14 @@
     "express": "4.17.1"
   },
   "devDependencies": {
-    "nodemon": "2.0.4"
+    "debug": "4.2.0",
+    "eslint": "7.10.0",
+    "eslint-config-airbnb-base": "14.2.0",
+    "eslint-plugin-import": "2.22.1",
+    "eslint-plugin-jest": "24.0.2",
+    "husky": "4.3.0",
+    "jest": "26.4.2",
+    "nodemon": "2.0.4",
+    "supertest": "5.0.0"
   }
 }

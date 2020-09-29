@@ -2,6 +2,7 @@
 <h3 align="center">API</h3>
 
 <p align="center">
+  <img src="https://github.com/edwintrumpet/my-finances-api/workflows/CI/badge.svg" alt="CI badge">
   <img src="https://img.shields.io/github/commit-activity/m/edwintrumpet/my-finances-api?logo=github" alt="commit activity badge">
   <img src="https://img.shields.io/github/last-commit/edwintrumpet/my-finances-api?logo=github" alt="last commit badge">
 </p>
@@ -12,6 +13,7 @@
   <img src="https://simpleicons.org/icons/githubactions.svg" alt="githubactions" width="40" height="40"/>
   <img src="https://devicons.github.io/devicon/devicon.git/icons/github/github-original.svg" alt="github" width="40" height="40"/>
   <img src="https://devicons.github.io/devicon/devicon.git/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/>
+  <img src="https://simpleicons.org/icons/jest.svg" alt="jest" width="40" height="40"/>
   <img src="https://devicons.github.io/devicon/devicon.git/icons/nodejs/nodejs-original.svg" alt="nodejs" width="40" height="40"/>
 </p>
 
