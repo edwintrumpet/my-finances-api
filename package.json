@@ -32,6 +32,7 @@
   },
   "homepage": "https://github.com/edwintrumpet/my-finances-api#readme",
   "dependencies": {
+    "@hapi/boom": "9.1.0",
     "dotenv": "8.2.0",
     "express": "4.17.1"
   },
