@@ -1,13 +1,18 @@
-const express = require('express')
-const {port} = require('./config/index')
+const express = require('express');
+// eslint-disable-next-line import/no-extraneous-dependencies
+const debug = require('debug')('app:server');
 
-const app = express()
+const { port } = require('./config/index');
+const routes = require('./routes');
 
-app.get('/', (req, res) => {
-  res.send('Hello world!')
-})
+// Initializations
+const app = express();
 
-app.listen(port, err => {
-  if(err) console.log(err)
-  else console.log(`Listening on http://localhost:${port}`)
-})
+// Routes
+routes(app);
+
+// Server
+app.listen(port, (err) => {
+  if (err) debug(err);
+  else debug(`Listening on http://localhost:${port}`);
+});
