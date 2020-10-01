@@ -25,6 +25,9 @@ NodeJS api to manage personal finances
 - **`npm run dev`** => Run app in develop mode
 - **`npm start`** => Run app in production mode
 - **`npm test`** => Run tests
+- **`npm run test:cover`** => Watch tests cover
+- **`npm run lint`** => Checkout linter errors
+- **`npm run lint`** => Fix linter errors
 
 To work in this project with the previous scripts execute the following instructions
 
